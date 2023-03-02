@@ -1,12 +1,12 @@
 import './App.css';
-import BalanceButton from './components/BalanceButton';
+import Shop from './components/Shop';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
       <Navbar />
-      <BalanceButton/>
+      <Shop/>
     </>
   );
 }

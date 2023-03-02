@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 const Navbar = () => {
-  const amount = useSelector(state => state.amount)
+  const amount = useSelector(state => state.amount)    //Selector hook select state from reducer
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

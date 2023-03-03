@@ -5,5 +5,5 @@ import amountReducers from './amountReducers'
 
 const reducer=combineReducers({
     amount :amountReducers              //Since there is only one amountReducers ,if there are so many Reducers we will use comma and add all reducers here
-})
+})                                      //Here amount is make to behave as a state variable
 export default reducer
